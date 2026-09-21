@@ -66,6 +66,7 @@ public class User  implements Serializable {
 		return senha;
 	}
 
+	public User() {}
 	public User(Long id, String nome, String email, int senha) {
 		super();
 		this.id = id;
@@ -73,7 +74,6 @@ public class User  implements Serializable {
 		this.email = email;
 		this.senha = senha;
 	}
-
 	
 
 }
